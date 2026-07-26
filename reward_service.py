@@ -310,6 +310,7 @@ def create_withdrawal_atomic(
     service_id="",
     service_name="",
     service_emoji="💳",
+    service_tag="",
     required_referrals=0,
     user_input="N/A"
 ):
@@ -362,6 +363,7 @@ def create_withdrawal_atomic(
                 "service_id": service_id,
                 "service_name": service_name,
                 "service_emoji": service_emoji,
+                "service_tag": service_tag,
                 "required_referrals": required_referrals,
                 "user_input": user_input,
 
