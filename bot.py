@@ -508,7 +508,7 @@ async def payout_approve(update, context, serial_no):
         "used": False,
         "created_at": datetime.now()
     })
-    link = f"https://t.me/YOUR_SECOND_BOT_USERNAME?start=redeem_{code}"   # ← CHANGE THIS
+    link = f"https://t.me/Abhiidbot?start=redeem_{code}"   # ← CHANGE THIS
     await safe_send(context.bot, r["user_id"],
                     f"✅ Your withdrawal is approved!\n"
                     f"🎟️ Redeem your service here:\n{link}\n"
