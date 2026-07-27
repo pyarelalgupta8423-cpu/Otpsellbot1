@@ -92,6 +92,12 @@ def init_db():
         "active"
     )
 
+    # ========== NEW: Redeem codes index ==========
+    get_collection("redeem_codes").create_index(
+        "code",
+        unique=True
+    )
+
     logger.info("Database initialized with all indexes")
 
 
