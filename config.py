@@ -45,6 +45,7 @@ COLLECTIONS = {
     "settings": "settings",
     "groups": "groups",
     "counters": "counters",
+    "redeem_codes": "redeem_codes",   # <--- ADDED
 
     # CMS
     "ui_screens": "ui_screens",
